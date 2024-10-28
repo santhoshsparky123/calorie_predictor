@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weight gain</title>
+  <link rel="stylesheet" href="styles/weight-gain.css">
+  <link rel="stylesheet" href="styles/change-bg.css">
+</head>
+<body class="tempo">
+  <div class="header-div">
+    <p class="header">CaloriePro:Your Fitness Companion</p>
+    
+    <ul>
+      <a href="interface.html"><li>Home |</li></a>
+      <a href="https://www.instagram.com/271.santhosh/"><li>Instagram</li></a>
+    </ul>
+    <button class="theme" onclick="change();">Dark Theme</button>
+  </div>
+
+  <p class="maintenance">Surplus Calories</p>
+  <img src="images/fitness1.jpg" alt="" class="fitness">
+
+  <center>
+    <div class="form">
+    
+      <input type="text" placeholder="Enter your maintainence calories" class="input js-MC" required>
+      <input type="text" placeholder="Your Body Weight" class="input js-weight" required>
+      <input type="text" placeholder="Number of Kgs want to gain " class="input js-kgs" required>
+      <input type="text" placeholder="Number of weeks" class="input js-weeks" required>
+      
+      <button type="reset" class="reset-button">Reset</button>
+    
+    <button class="submit-button" onclick="submit();">Submit</button>
+    </div>
+  </center>
+
+  <div class="js-target target-div">
+
+  </div>
+    <center>
+    <div class="js-surplus surplus-div">
+
+    </div>
+  </center>
+  <center>
+    <div class="button-div">
+      <p class="find">Find your Diet Plan</p>
+      <img src="images/down-hand.webp" alt="" class="down-hand">
+      <a href="diet-plan.html">
+        <button class="click-here-button">Click Here</button>
+      </a>
+      
+    </div>
+    </center>
+  </div>
+ 
+  <script src="script/weight-gain.js"></script>
+  <script src="script/change-bg.js"></script>
+
+</body>
+</html>

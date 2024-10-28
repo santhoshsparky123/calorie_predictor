@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+body {
+  padding-bottom: 300px;
+}
+.header-div {
+  position: relative;
+  background-color: skyblue;
+  height: 130px;
+}
+.header {
+  position: absolute;
+  font-weight: bold;
+  font-size: 50px;
+  left: 300px;
+  top: 30px;
+}
+ul,li {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(3, 3, 119);
+}
+li:hover {
+  cursor: pointer;
+  color:white ;
+}
+ul {
+  position: absolute;
+  left: 700px;
+  top: 100px;
+}
+label {
+  font-weight: bold;
+  font-size: 18px;
+}
+.weight-loss-button,
+.weight-gain-button { 
+  bottom: 24px;
+  background-color: rgb(161, 9, 161);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 6px;
+  color: white;
+  border: 2px solid rgb(161, 9, 161);
+  transition: background-color 0.15s, color 0.15s;
+}
+.weight-loss-button:hover,
+.weight-gain-button:hover {
+  background-color: white;
+  color: rgb(112, 5, 112);
+}
+.weight-gain-button:active,
+.weight-loss-button:active {
+  opacity: 0.4;
+}
+.weight-loss-button {
+  position: absolute;
+  left: 100px;
+}
+.weight-gain-button {
+  position: absolute;
+  right: 100px;
+}
+.maintenance {
+  text-decoration: underline;
+  font-size: 34px;
+  font-weight: bold;
+  color: rgb(3, 212, 3);
+  margin-top: 50px;
+}
+.fitness {
+  height: 150px;
+  position: absolute;
+  right: 90px;
+  top: 130px;
+}
+.form {
+  display: inline-block;
+  padding: 10px 10px;
+  margin-top: 40px;
+  margin-left: 440px;
+}
+
+.ques {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+input {
+  width: 500px;
+  padding: 6px;
+}
+
+.option,.option1 {
+  width: 516px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.reset-button,.calculate-button {
+  background-color: skyblue;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 6px;
+  margin-left: 40px;
+}
+.reset-button:hover,
+.calculate-button:hover {
+  background-color: rgb(54, 186, 238);
+}
+.reset-button:active,
+.calculate-button:active {
+  opacity: 0.7;
+}
+.calculate-button {
+  margin-left: 230px;
+}
+.MC {
+  display: inline-block;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 70px;
+  color: red;
+}
+.fire {
+  height: 100px;
+}
+.theme {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 10px 14px;
+  cursor: pointer;
+  margin-top: 70px;
+  margin-left: 1200px;
+  transition: box-shadow 0.15s;
+ 
+}
+.theme:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.change {
+  background-color: black;
+  color: white;
+}
+.color {
+  background-color: white;
+  color: black;
+}

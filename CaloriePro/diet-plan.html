@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your diet plan</title>
+  <link rel="stylesheet" href="styles/diet-plan.css">
+  <link rel="stylesheet" href="styles/change-bg.css">
+</head>
+<body class="tempo">
+  <div class="header-div">
+    <p class="header">CaloriePro:Your Fitness Companion</p>
+    
+    <ul>
+      <a href="interface.html"><li>Home |</li></a>
+      <a href="https://www.instagram.com/271.santhosh/"><li>Instagram</li></a>     
+    </ul>
+    <button class="theme" onclick="change();">Dark Theme</button>
+  </div>
+
+  <p class="maintenance">Your Diet Plan</p>
+  <img src="images/fitness1.jpg" alt="" class="fitness">
+
+  <div class="whole-content">
+    <div class="content-box">
+      <p class="topic">◉ Carbohydrate:</p>
+      <p class="content">
+        Carbohydrate is an important energy source during exercise. 1 gram of carbohydrate contains 4 calories</p>
+        <div class="example-div">
+            <p class="example">Examples:</p>
+          <table border="2">
+            <th>
+              
+              <td class="title">Foods</td>
+              <td class="title">Grams</td>
+              <td class="title">Carbs</td>
+              <td class="title">Proteins</td>
+              <td class="title">Fats</td>
+              <td class="title">Cal</td>
+            </th>
+            <tr>
+              <td>1.</td>
+              <td>Rice</td>
+              <td>100g</td>
+              <td>21.5g</td>
+              <td>2.1g</td>
+              <td>0.3g</td>
+              <td>97cal</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Idly</td>
+              <td>100g</td>
+              <td>30.2g</td>
+              <td>5g</td>
+              <td>1.7g</td>
+              <td>156cal</td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>Dosa</td>
+              <td>100g</td>
+              <td>27.5g</td>
+              <td>4.5g</td>
+              <td>7.4g</td>
+              <td>193cal</td>
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td>Chapati</td>
+              <td>100g</td>
+              <td>49.6g</td>
+              <td>8.7g</td>
+              <td>1.2g</td>
+              <td>244cal</td>
+            </tr>
+            <tr>
+              <td>5.</td>
+              <td>Sambar</td>
+              <td>100g</td>
+              <td>10.8g</td>
+              <td>3.7g</td>
+              <td>2g</td>
+              <td>76cal</td>
+            </tr>
+            <tr>
+              <td>6.</td>
+              <td>Oats</td>
+              <td>100g</td>
+              <td>62.8g</td>
+              <td>13.6g</td>
+              <td>7.6g</td>
+              <td>374cal</td>
+            </tr>
+            <tr>
+              <td>7.</td>
+              <td>Banana</td>
+              <td>100g</td>
+              <td>27.2g</td>
+              <td>1.2g</td>
+              <td>0.3g</td>
+              <td>116cal</td>
+            </tr>
+            <tr>
+              <td>8.</td>
+              <td>sweet potato</td>
+              <td>100g</td>
+              <td>20g</td>
+              <td>1.6g</td>
+              <td>0.1g</td>
+              <td>86cal</td>
+            </tr>
+            <tr>
+              <td>9.</td>
+              <td>wheat bread</td>
+              <td>100g</td>
+              <td>49.5g</td>
+              <td>10.4g</td>
+              <td>3.4g</td>
+              <td>270cal</td>
+            </tr>
+            <tr>
+              <td>10.</td>
+              <td>Ragi kali</td>
+              <td>100g</td>
+              <td>14.3g</td>
+              <td>1.5g</td>
+              <td>0.3g</td>
+              <td>65cal</td>
+            </tr>
+          </table>
+          <div class="calculator-div">
+            <center>
+              <p class="carb">Carb Calculator</p>
+              <input type="text" placeholder="Enter the Surplus or Deficit calories" class="calories-input js-caloriesCarb-input">
+              <button class="calculate-button" onclick="
+                calculate('carb');
+              ">Calculate</button>
+              <p class="js-carb-gram"></p>
+            </center>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="whole-content">
+    <div class="content-box">
+      <p class="topic">◉ Protein:</p>
+      <p class="content">
+        Protein play a major role in Muscle growth. Eating protein after a workout helps repair and rebuild muscle. 1 gram of protein contains 4 calories</p>
+        <div class="example-div">
+            <p class="example">Examples:</p>
+          <table border="2">
+            <th>
+              
+              <td class="title">Foods</td>
+              <td class="title">Grams</td>
+              <td class="title">Carbs</td>
+              <td class="title">Proteins</td>
+              <td class="title">Fats</td>
+              <td class="title">Cal</td>
+            </th>
+            <tr>
+              <td>1.</td>
+              <td>Egg</td>
+              <td>100g</td>
+              <td>1.1g</td>
+              <td>12.6g</td>
+              <td>10.6g</td>
+              <td>155cal</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Soya Chunks</td>
+              <td>100g</td>
+              <td>33gg</td>
+              <td>52g</td>
+              <td>0.5g</td>
+              <td>345cal</td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>chicken breast</td>
+              <td>100g</td>
+              <td>0g</td>
+              <td>22.5g</td>
+              <td>2.6g</td>
+              <td>120cal</td>
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td>whey Protein</td>
+              <td>100g</td>
+              <td>19.4g</td>
+              <td>61.1g</td>
+              <td>5.8g</td>
+              <td>375cal</td>
+            </tr>
+            <tr>
+              <td>5.</td>
+              <td>Fish</td>
+              <td>100g</td>
+              <td>0g</td>
+              <td>22.4g</td>
+              <td>0.8g</td>
+              <td>102cal</td>
+            </tr>
+            <tr>
+              <td>6.</td>
+              <td>Green Gram</td>
+              <td>100g</td>
+              <td>56.7g</td>
+              <td>24g</td>
+              <td>1.3g</td>
+              <td>334cal</td>
+            </tr>
+            <tr>
+              <td>7.</td>
+              <td>Diet Paneer</td>
+              <td>100g</td>
+              <td>3g</td>
+              <td>19g</td>
+              <td>7g</td>
+              <td>150cal</td>
+            </tr>
+            <tr>
+              <td>8.</td>
+              <td>Peanut</td>
+              <td>100g</td>
+              <td>16.1g</td>
+              <td>26g</td>
+              <td>49.2g</td>
+              <td>567cal</td>
+            </tr>
+            <tr>
+              <td>9.</td>
+              <td>Beef</td>
+              <td>100g</td>
+              <td>0g</td>
+              <td>22.6g</td>
+              <td>2.6g</td>
+              <td>114cal</td>
+            </tr>
+            <tr>
+              <td>10.</td>
+              <td>Tofu</td>
+              <td>100g</td>
+              <td>2.8g</td>
+              <td>17.3g</td>
+              <td>8.7g</td>
+              <td>144cal</td>
+            </tr>
+          </table>
+          <div class="calculator-div">
+            <center>
+              <p class="carb">Protein Calculator</p>
+              <input type="text" placeholder="Enter the Surplus or Deficit calories" class="calories-input js-caloriesProtein-input">
+              <button class="calculate-button" onclick="
+                calculate('protein');
+              ">Calculate</button>
+              <p class="js-protein-gram"></p>
+            </center>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="whole-content">
+    <div class="content-box">
+      <p class="topic">◉ Fat:</p>
+      <p class="content">
+        It helps to keep the boold flowing, the heart beating correctly and keeps the skin and hair healthy. It boost the testosterone. 1 gram of fat contains 9 calories</p>
+        <div class="example-div">
+            <p class="example">Examples:</p>
+          <table border="2">
+
+            <th>              
+              <td class="title">Foods</td>
+              <td class="title">Grams</td>
+              <td class="title">Carbs</td>
+              <td class="title">Proteins</td>
+              <td class="title">Fats</td>
+              <td class="title">Cal</td>
+            </th>
+            <tr>
+              <td>1.</td>
+              <td>Whole egg</td>
+              <td>100g</td>
+              <td>2g</td>
+              <td>13.3g</td>
+              <td>13.3g</td>
+              <td>173cal</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Peanut</td>
+              <td>100g</td>
+              <td>16.1g</td>
+              <td>25.8gg</td>
+              <td>49.2g</td>
+              <td>567cal</td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>Badam</td>
+              <td>100g</td>
+              <td>21.6g</td>
+              <td>21.2g</td>
+              <td>49.9g</td>
+              <td>620cal</td>
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td>Avocado</td>
+              <td>100g</td>
+              <td>1.8g</td>
+              <td>3g</td>
+              <td>13.9g</td>
+              <td>144cal</td>
+            </tr>
+            <tr>
+              <td>5.</td>
+              <td>Cheese</td>
+              <td>100g</td>
+              <td>6.3g</td>
+              <td>24.1g</td>
+              <td>25.1g</td>
+              <td>348cal</td>
+            </tr>
+            <tr>
+              <td>6.</td>
+              <td>Flax Seed</td>
+              <td>100g</td>
+              <td>28.9g</td>
+              <td>18.3g</td>
+              <td>42.2g</td>
+              <td>534cal</td>
+            </tr>
+            <tr>
+              <td>7.</td>
+              <td>Dark Chocolate</td>
+              <td>100g</td>
+              <td>60.2g</td>
+              <td>4.5g</td>
+              <td>33.2g</td>
+              <td>528cal</td>
+            </tr>
+            <tr>
+              <td>8.</td>
+              <td>Milk</td>
+              <td>200ml</td>
+              <td>9.1g</td>
+              <td>6.6g</td>
+              <td>8.5g</td>
+              <td>138cal</td>
+            </tr>
+            <tr>
+              <td>9.</td>
+              <td>Cashew</td>
+              <td>100g</td>
+              <td>22.3g</td>
+              <td>21.2g</td>
+              <td>46.9g</td>
+              <td>596cal</td>
+            </tr>
+            <tr>
+              <td>10.</td>
+              <td>Walnuts</td>
+              <td>100g</td>
+              <td>10.2g</td>
+              <td>14.9g</td>
+              <td>64.3g</td>
+              <td>671cal</td>
+            </tr>
+          </table>
+          <div class="calculator-div">
+            <center>
+              <p class="carb">Fat Calculator</p>
+              <input type="text" placeholder="Enter the Surplus or Deficit calories" class="calories-input js-caloriesFat-input">
+              <button class="calculate-button" onclick="
+                calculate('fat');
+              ">Calculate</button>
+              <p class="js-fat-gram"></p>
+            </center>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <center>
+    <div class="button-div">
+      <p class="find">Example Diet Plan</p>
+      <img src="images/down-hand.webp" alt="" class="down-hand">
+      <a href="example-diet.html">
+        <button class="click-here-button">Click Here</button>
+      </a> 
+    </div>
+    </center>
+
+ <script src="script/diet-plan.js"></script>
+ <script src="script/change-bg.js"></script>
+</body>
+</html>

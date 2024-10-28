@@ -1,0 +1,24 @@
+.theme {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 10px 14px;
+  cursor: pointer;
+  margin-top: 70px;
+  margin-left: 50px;
+  transition: box-shadow 0.15s;
+}
+.theme:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.change {
+  background-color: black;
+  color: white;
+}
+.color {
+  background-color: white;
+  color: black;
+}

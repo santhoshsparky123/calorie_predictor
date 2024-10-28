@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+body {
+  padding-bottom: 300px;
+}
+.header-div {
+  position: relative;
+  background-color: skyblue;
+  height: 130px;
+}
+.header {
+  position: absolute;
+  font-weight: bold;
+  font-size: 50px;
+  left: 310px;
+  top: 30px;
+}
+ul,li {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(3, 3, 119);
+}
+li:hover {
+  cursor: pointer;
+  color:white ;
+}
+ul {
+  position: absolute;
+  left: 650px;
+  top: 100px;
+}
+.maintenance {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 34px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: rgb(3, 212, 3);
+}
+.fitness {
+  height: 150px;
+  position: absolute;
+  right: 90px;
+  top: 130px;
+}
+.form {
+  display: inline-block;
+  padding: 20px;
+  border: 3px solid rgb(177, 7, 177);
+  margin-top: 30px;
+}
+.input {
+  display: block;
+  width: 400px;
+  padding: 6px;
+  margin-bottom: 16px;
+}
+.input:hover {
+  border-color: rgb(31, 162, 214);
+}
+.reset-button {
+  margin-right: 200px;
+}
+.reset-button,.submit-button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-top: 16px;
+  font-weight: bold;
+  transition: background-color 0.15s, color 0.15s;
+}
+.reset-button:hover,
+.submit-button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.reset-button:active,
+.submit-button:active {
+  opacity: 0.4;
+}
+.target-div {
+  position: absolute;
+  left: 100px;
+  top: 180px;
+}
+.target {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 26px;
+}
+.target-weight {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: blueviolet;
+  margin-left: -10px;
+  text-decoration: underline;
+}
+.surplus-div {
+  display: inline-block;
+  margin-top: 30px;
+}
+.red {
+  color: red;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.find {
+  font-size: 30px;
+  font-weight: bold;
+}
+.down-hand {
+  display: block;
+  text-align: center;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.click-here-button {
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.15ms;
+}
+.click-here-button:hover {
+  background-color: rgb(15, 228, 228);
+}
+.click-here-button:active {
+  opacity: 0.5;
+}

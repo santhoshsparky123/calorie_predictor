@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maintenance calories</title>
+  <link rel="stylesheet" href="styles/maintenance.css">
+</head>
+<body class="tempo">
+  <div class="header-div">
+    <p class="header">CaloriePro:Your Fitness Companion</p>
+    
+    <ul>
+      <a href="interface.html"><li>Home |</li></a>
+      <a href="https://www.instagram.com/271.santhosh/"><li>Instagram</li></a>
+   
+    </ul>
+    <button class="theme" onclick="change();">Dark Theme</button>
+    
+  </div>
+  
+  <div>
+    <center>
+  <p class="maintenance">Maintenance Calories</p>
+</center>
+  <img src="images/fitness1.jpg" alt="" class="fitness">
+</div>
+
+
+  <div class="form">
+      <div class="ques">
+        <label>Age</label>
+        <input type="text" placeholder="Enter your Age" required class="js-age">
+      </div>
+
+      <div class="ques">
+        <label for="gender">Gender</label>
+        <select class="js-option option" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+
+      <div class="ques">
+        <label>Body weight</label>
+        <input type="text" class="js-weight" placeholder="Enter your Weight (in Kg)" required>
+      </div>
+
+      <div class="ques">
+        <label>Height</label>
+        <input type="text"  placeholder="Enter your Height (in cm)" required class="js-height">
+      </div>
+
+      <div class="ques">
+        <label>Active Factor</label>
+        <select class="js-option1 option1" required>
+          <option value="1.2">Sendentary (IT jobs)</option>
+          <option value="1.4">Lightly active (Students)</option>
+          <option value="1.5">Moderate (sports person)</option>
+          <option value="1.7">Very active (farmer, construction)</option>
+          <option value="1.9">Extreme (Non stop work)</option>
+        </select>
+      </div>
+    
+
+      <div>
+        <button class="reset-button" type="reset">Reset</button>
+        <button class="calculate-button" type="submit" onclick="
+          finding();
+        ">Calculate</button>
+      </div>
+  </div>
+    
+
+      
+      <center>
+    <p class="js-MC MC"></p>
+  </center>
+  </div>
+
+  <script src="script/maintenance.js"></script>
+  <script src="script/change-bg.js"></script>
+
+</body>
+</html>

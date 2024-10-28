@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.header-div {
+  position: relative;
+  background-color: skyblue;
+  height: 130px;
+}
+.header {
+  position: absolute;
+  font-weight: bold;
+  font-size: 50px;
+  left: 310px;
+  top: 30px;
+}
+ul,li {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(3, 3, 119);
+}
+li:hover {
+  cursor: pointer;
+  color:white ;
+}
+ul {
+  position: absolute;
+  left: 700px;
+  top: 100px;
+}
+.maintenance {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: rgb(3, 212, 3);
+}
+.fitness {
+  height: 150px;
+  position: absolute;
+  right: 90px;
+  top: 130px;
+}
+.whole-content {
+  padding-left: 100px;
+  width: 1000px;
+  margin-top: 20px;
+}
+.topic {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: blue;
+}
+.content-box {
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.content {
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 70px;
+}
+
+.example-div {
+  margin-left: 70px;
+  font-weight: bold;
+  margin-top: 20px;
+  position: relative;
+}
+.example {
+  text-decoration: underline;
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: red;
+}
+table {
+  margin-left: 50px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.title {
+  font-size: 20px;
+  color: brown;
+}
+td {
+  padding: 6px;
+}
+.calculator-div {
+  position: absolute;
+  top: 130px;
+  right: -130px;
+  font-size: 30px;
+}
+.carb {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.calories-input {
+  width: 340px;
+  padding: 6px;
+}
+
+.calculate-button {
+  display: block;
+  margin-top: 30px;
+  background-color: rgb(161, 9, 161);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 6px;
+  color: white;
+  border: 2px solid rgb(161, 9, 161);
+  transition: background-color 0.15s, color 0.15s;
+}
+.calculate-button:hover {
+  background-color: white;
+  color: rgb(112, 5, 112);
+}
+.calculate-button:active {
+  opacity: 0.4;
+}
+.js-carb-gram,
+.js-protein-gram,
+.js-fat-gram {
+  color: red;
+  margin-top: 30px;
+  font-size: 60px;
+}
+.button-div {
+  display: inline-block;
+  margin-top: 50px;
+}
+.find {
+  font-size: 30px;
+  font-weight: bold;
+}
+.down-hand {
+  display: block;
+  text-align: center;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.click-here-button {
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.15ms;
+}
+.click-here-button:hover {
+  background-color: rgb(15, 228, 228);
+}
+.click-here-button:active {
+  opacity: 0.5;
+}
+body {
+  padding-bottom: 180px;
+}

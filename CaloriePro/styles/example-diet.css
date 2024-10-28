@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.header-div {
+  position: relative;
+  background-color: skyblue;
+  height: 130px;
+}
+.header {
+  position: absolute;
+  font-weight: bold;
+  font-size: 50px;
+  left: 310px;
+  top: 30px;
+}
+.header-div ul,
+.header-div li {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(3, 3, 119);
+}
+.header-div li:hover {
+  cursor: pointer;
+  color:white ;
+}
+.header-div ul {
+  position: absolute;
+  left: 700px;
+  top: 100px;
+}
+.maintenance {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: rgb(3, 212, 3);
+}
+.fitness {
+  height: 150px;
+  position: absolute;
+  right: 90px;
+  top: 130px;
+}
+.details-box {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+.details {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.details li {
+  margin-bottom: 5px;
+}
+.meals {
+  margin-left: 120px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.meals li {
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.example-div {
+  margin-left: 120px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 214px;
+}
+.example {
+  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: red;
+  margin-left: 50px;
+}
+table {
+  margin-left: 50px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.title {
+  font-size: 20px;
+  color: brown;
+}
+.example-div td {
+  padding: 6px;
+}
+.div-1 {
+  display: inline-block;
+}
+.bottom {
+  background-color: black;
+  color: white;
+  line-height: 30px;
+  padding: 20px 0;
+  margin-top: 70px;
+}
+

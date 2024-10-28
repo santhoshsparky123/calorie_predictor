@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+body {
+  padding-bottom: 150px;
+}
+.header-div {
+  position: relative;
+  background-color: skyblue;
+  height: 130px;
+}
+.my-image {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 78px;
+  border: solid 6px black;
+  position: absolute;
+  left: 40px;
+  top: 44px;   
+}
+.header {
+  position: absolute;
+  font-weight: bold;
+  font-size: 50px;
+  left: 310px;
+  top: 50px;
+}
+.fitness2 {
+  height: 150px;
+  position: absolute;
+  right: 90px;
+}
+.intro-div {
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.intro {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(123, 6, 158);
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(10, 175, 10);
+}
+.topic {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: lightgreen;
+}
+.whole-content {
+  padding-left: 100px;
+  width: 1000px;
+  margin-top: 20px;
+}
+.content-box {
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.content {
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 70px;
+}
+.example-div {
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.example {
+  text-decoration: underline;
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: red;
+}
+.examples {
+  margin-left: 40px;
+}
+.egg {
+  height: 90px;
+  width: 100px;
+  object-fit: cover;
+  margin-left: 80px;
+}
+.chapati {
+  height: 100px;
+  margin-left: 20px;
+}
+li {
+  margin-bottom: 8px;
+}
+.button-div {
+  display: inline-block;
+  margin-top: 20px;
+}
+.find {
+  font-size: 30px;
+  font-weight: bold;
+}
+.down-hand {
+  display: block;
+  text-align: center;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.click-here-button {
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.15ms;
+}
+.click-here-button:hover {
+  background-color: rgb(15, 228, 228);
+}
+.click-here-button:active {
+  opacity: 0.5;
+}
+.theme {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 10px 14px;
+  cursor: pointer;
+  margin-top: 70px;
+  margin-left: 1200px;
+  transition: box-shadow 0.15s;
+ 
+}
+.theme:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.change {
+  background-color: black;
+  color: white;
+}
+.color {
+  background-color: white;
+  color: black;
+}
+.id {
+  margin-top: 50px;
+}
